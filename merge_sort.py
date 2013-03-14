@@ -15,5 +15,5 @@ b_file = "adr.xls"
 b_book = (xlrd.open_workbook(a_file))
 b_sheet = b_book.sheet_by_index(0)
 for counter in range(a_sheet.nrows):
-    rowValue = sheet.row_values(counter, start_colx=0, end_colx=1)[0]
+    rowValue = b_sheet.row_values(counter, start_colx=0, end_colx=1)[0]
     print rowValue

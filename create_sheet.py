@@ -14,7 +14,7 @@ nomatch = {}
 email_adresss = []
 email_adresss_dict = {}
 sheet = book.sheet_by_index(1)
-regstring = "[\-\_A-Za-z0-9]+[\.A-Za-z0-9]*@[\-A-Za-z0-9]+[\.a-z]+"
+regstring = "[\-\_A-Za-z0-9]+[\.A-Za-z0-9]*@[\-A-Za-z0-9]+[\.a-zA-Z]+"
 #import pdb; pdb.set_trace()
 
 for counter in range(sheet.nrows):
